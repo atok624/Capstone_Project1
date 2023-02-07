@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  height: auto;
+  width: 100%;
+}
+
+.navTop {
+  width: 100%;
+  background-color: #272a31;
+}
+
+.navTop ul {
+  padding: 5px;
+  margin-right: 150px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navList li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.navTop ul li {
+  margin-left: 20px;
+}
+
+.navList li a {
+  font-size: 20px;
+}
+
+.navTop ul li a {
+  color: white;
+}
+
+.navList li:nth-child(1) a {
+  color: #ec5242;
+}
+
+.navList li:nth-child(6) {
+  margin-left: 50px;
+  border: 5px solid #ec5242;
+}
+
+.navList li:nth-child(6) a {
+  color: #ec5242;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+}
+
+.navImg {
+  width: 120px;
+  height: 100px;
+}
+
+.intro {
+  background-image: url("./Images/adinkra.jpg");
+  height: 630px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
