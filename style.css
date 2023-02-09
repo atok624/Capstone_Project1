@@ -172,10 +172,6 @@ header,
   margin: 15px 0;
 }
 
-.past-events div a {
-
-}
-
 .past-events div img {
   width: 90%;
   margin: 10px 0 5px 20px;
@@ -184,18 +180,18 @@ header,
   transition: all 0.5s ease-in-out;
 }
 
+.footerUpper ul li img,
+.footerUpper1 ul li img {
+  width: 90px;
+  height: 90px;
+}
+
 .past-events div img:hover {
   width: 90%;
   margin: 10px 0 5px 20px;
   height: 250px;
   opacity: 1;
   border: #36454f 1px solid;
-}
-
-.footerUpper ul li img,
-.footerUpper1 ul li img {
-  width: 90px;
-  height: 90px;
 }
 
 .about {
