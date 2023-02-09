@@ -44,6 +44,10 @@ header,
   width: 90%;
 }
 
+.activity p {
+  color: #d3d3d3;
+}
+
 .introContainer p:nth-child(1) {
   padding-top: 20px;
   font-size: 30px;
@@ -69,10 +73,6 @@ header,
   font-size: 20px;
   width: 30%;
   color: #ec5242;
-}
-
-.activity p {
-  color: #d3d3d3;
 }
 
 .bar {
