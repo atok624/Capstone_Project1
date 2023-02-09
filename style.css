@@ -19,7 +19,7 @@ header,
 .about {
   background-image: url("./Images/mobile.png");
   height: auto;
-  text-align: center;
+  text-align: left;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,6 +58,10 @@ header,
   padding: 5px;
   margin: 10px 0;
   background-color: #36454f;
+}
+
+.activity:hover {
+  border: 1px solid #d3d3d3;
 }
 
 .activity h2 {
@@ -136,18 +140,20 @@ header,
   width: 30px;
 }
 
-.footerLower img {
+.footerLower img,
+.footerLower1 img {
   width: 200px;
 }
 
-.footerUpper img {
+.footerUpper img,
+.footerUpper1 img {
   width: 60px;
 }
 
 .Logo img {
-  width: 350px;
+  width: 300px;
   border: 1px solid #d3d3d3;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .past-events {
@@ -166,16 +172,30 @@ header,
   margin: 15px 0;
 }
 
+.past-events div a {
+
+}
+
 .past-events div img {
   width: 90%;
   margin: 10px 0 5px 20px;
   height: 250px;
   opacity: 0.5;
+  transition: all 0.5s ease-in-out;
 }
 
-.footerUpper ul li img {
-  width: 100px;
-  height: 100px;
+.past-events div img:hover {
+  width: 90%;
+  margin: 10px 0 5px 20px;
+  height: 250px;
+  opacity: 1;
+  border: #36454f 1px solid;
+}
+
+.footerUpper ul li img,
+.footerUpper1 ul li img {
+  width: 90px;
+  height: 90px;
 }
 
 .about {
@@ -244,21 +264,24 @@ header,
 }
 
 .para3 {
+  width: 70%;
   font-size: medium;
   line-height: 1.5;
   border: #f4f4f4 3px solid;
-  margin: 40px auto;
+  margin: 10px 0;
   background-color: white;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 }
 
 .main {
+  background-image: url("./Images/diamond.png");
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #272a31;
+  background-color: #272a31;
 }
 
 .main hr {
@@ -306,7 +329,7 @@ header,
 }
 
 .speakerList {
-  display: flex;
+  display: flex !important;
   padding: 10px;
 }
 
@@ -319,16 +342,19 @@ header,
   color: #ec5242;
 }
 
-.footerUpper {
+.footerUpper,
+.footerUpper1 {
   background-color: #272a31;
 }
 
-.footerUpper h3 {
+.footerUpper h3,
+.footerUpper1 h3 {
   font-size: 35px;
   text-align: center;
 }
 
-.footerUpper hr {
+.footerUpper hr,
+.footerUpper1 hr {
   width: 40px;
   color: #ec5242;
   margin: 20px auto;
@@ -338,22 +364,25 @@ header,
   padding-top: 30px;
 }
 
-.footerUpper ul {
+.footerUpper ul,
+.footerUpper1 ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.footerUpper ul li {
+.footerUpper ul li,
+.footerUpper1 ul li {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 15px;
+  padding: 10px;
   flex-direction: column;
+  align-items: center;
 }
 
-.footerLower {
+.footerLower,
+.footerLower1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -476,7 +505,8 @@ header,
     text-align: center;
   }
 
-  .about-para1 {
+  .about-para1,
+  .about-para2 {
     text-align: center;
     line-height: 1.6;
   }
@@ -549,9 +579,15 @@ header,
     color: #ec5242;
   }
 
-  .footerLower img {
+  .footerLower img,
+  .footerLower1 img {
     width: 150px;
     height: 150px;
+  }
+
+  .footerLower1 img {
+    color: #fff;
+    margin-right: 20px;
   }
 
   .speakerList img {
@@ -599,11 +635,13 @@ header,
 
   /* Main Section */
   .main {
+    background-image: url("./Images/diamond.png");
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #272a31;
+    background-color: #272a31;
     color: white;
   }
 
@@ -710,6 +748,10 @@ header,
     margin-top: 20px;
   }
 
+  .footerUpper1 {
+    display: none;
+  }
+
   .footerUpper h3 {
     font-size: 25px;
     padding: 10px 0;
@@ -727,10 +769,19 @@ header,
     height: 100px;
   }
 
-  .footerLower {
+  .footerLower,
+  .footerLower1 {
     background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footerLower1 {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
   }
 }
