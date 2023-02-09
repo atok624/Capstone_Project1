@@ -57,7 +57,8 @@ header,
   align-items: center;
   padding: 5px;
   margin: 10px 0;
-  background-color: #36454f;
+  background-color: #272a31;
+  opacity: 0.7;
 }
 
 .activity:hover {
@@ -68,6 +69,10 @@ header,
   font-size: 20px;
   width: 30%;
   color: #ec5242;
+}
+
+.activity p {
+  color: #d3d3d3;
 }
 
 .bar {
@@ -260,14 +265,14 @@ header,
 }
 
 .para3 {
-  width: 70%;
+  width: 95%;
   font-size: medium;
   line-height: 1.5;
   border: #f4f4f4 3px solid;
   margin: 10px 0;
   background-color: white;
   padding: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .main {
@@ -293,6 +298,7 @@ header,
 
 .join_program_link {
   background-color: #ec5242;
+  color: #d3d3d3;
   width: 80%;
   display: flex;
   height: 80px;
@@ -419,6 +425,7 @@ header,
 
   .navList li a {
     font-size: 20px;
+    color: #36454f;
   }
 
   .join_program_link {
@@ -648,9 +655,9 @@ header,
   }
 
   .main hr {
-    width: 50px;
+    width: 400px;
     color: #ec5242;
-    margin-top: 20px;
+    margin: 5px 0 60px 0;
   }
 
   .mainActivities {
@@ -682,7 +689,7 @@ header,
 
   .underline {
     display: flex;
-    width: 170px;
+    width: 1100px;
     color: #272a31;
     margin-bottom: 30px;
   }
