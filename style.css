@@ -23,8 +23,7 @@ header,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 20px;
-  margin-top: 0;
+  padding: 0 20px 80px 20px;
 }
 
 .actitity p {
@@ -166,7 +165,7 @@ header,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin: 15px 0 30px 0;
   text-align: center;
 }
 
@@ -217,12 +216,12 @@ header,
   margin: 30px 0 10px 0;
 }
 
-.Logo hr {
+/* .Logo hr {
   width: 40px;
   color: #ec5242;
   align-self: center;
   margin: 5px 0 10px 0;
-}
+} */
 
 .about h1 {
   font-size: 37px;
@@ -297,7 +296,7 @@ header,
   display: flex;
   height: 80px;
   margin: 40px auto;
-  padding-left: 50px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -346,13 +345,14 @@ header,
 .footerUpper h3,
 .footerUpper1 h3 {
   font-size: 35px;
+  color: #d3d3d3;
   text-align: center;
 }
 
 .footerUpper hr,
 .footerUpper1 hr {
   width: 40px;
-  color: #ec5242;
+  color: green;
   margin: 20px auto;
 }
 
@@ -471,7 +471,8 @@ header,
   .intro,
   .about {
     background-image: url("./Images/headline-bg.png");
-    height: 630px;
+    height: auto;
+    padding-bottom: 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -547,6 +548,10 @@ header,
   .past-events h2 {
     margin: 30px 0;
     font-size: 30px;
+  }
+
+  .introContainer h3 {
+    padding-bottom: 30px;
   }
 
   .past-events p {
@@ -649,7 +654,7 @@ header,
   }
 
   .main hr {
-    width: 400px;
+    width: 40px;
     color: #ec5242;
     margin: 5px 0 60px 0;
   }
