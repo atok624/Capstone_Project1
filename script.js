@@ -42,7 +42,7 @@ const speakers = [
 function renderSpeakers() {
   let result = '';
   speakers.forEach((speaker) => {
-    result += ` <div class="speakerList">
+    result += ` <article class="speakerList">
         <img src="${speaker.img}" alt="${speaker.name}" />
         <div>
           <h3>${speaker.name}</h3>
@@ -54,7 +54,7 @@ function renderSpeakers() {
             ${speaker.desc}
           </p>
         </div>
-      </div>`;
+      </article>`;
   });
 
   speakerContainer.innerHTML = result;
