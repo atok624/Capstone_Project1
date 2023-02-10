@@ -89,6 +89,10 @@ header,
   margin-right: 15px;
 }
 
+.speakers {
+  margin-bottom: 20px;
+}
+
 .Logo p {
   margin-bottom: 15px;
 }
@@ -307,9 +311,11 @@ header,
 }
 
 .introContainer h1 {
+  background-image: url('./Images/header\ background.jpeg');
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 33px;
   line-height: 1.1;
-  color: #ec5242;
   font-weight: 900;
   padding: 0 0 15px 0;
 }
@@ -706,7 +712,6 @@ header,
 
   .introContainer h1 {
     font-size: 75px;
-    color: #ec5242;
     font-weight: 900;
     padding-bottom: 15px;
   }
@@ -760,12 +765,13 @@ header,
   .seeHeader {
     display: flex;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
   }
 
   .underline {
     display: flex;
-    width: 400px;
+    width: 290px;
     border: 1px solid #d3d3d3;
     margin-bottom: 100px;
   }
