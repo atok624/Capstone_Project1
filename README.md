@@ -161,9 +161,9 @@ If you like this project, please give it a star on the main page
 
 I would like to thank the following :
 
-- [ ] Cindy Shin
-- [ ] Microverse
-- [ ] All the Patners I've had for Module.
+- Cindy Shin
+- Microverse
+- All the Patners I've had for Module.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
