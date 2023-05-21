@@ -66,7 +66,7 @@ Mobile Menu
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Access the the online version of my application with this link
-[Live Demo]([https://atok624.github.io/Capstone_Project1/](https://capstone-uuaa.onrender.com/about.html))
+[Live Demo](https://capstone-uuaa.onrender.com/about.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
