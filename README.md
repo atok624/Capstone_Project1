@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>📖 Captstone Project 1</b></h3>
+  <h3><b> 📖 Captstone Project 1</b></h3>
 
 </div>
 
